@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Fred Feuerstein",
+        "birthday": "10.10.1000",
+        "job": "Arbeiter im Steinbruch",
+        "img":  "image/01.jpg"
+    },
+    {
+        "name": "Peter Parker",
+        "birthday": "15.05.1950",
+        "job": "Superhero",
+        "img":  "image/02.jpg"
+    },
+    {
+        "name": "Frankenstein",
+        "birthday": "01.03.1060",
+        "job": "Verrücktes Monster",
+        "img":  "image/03.jpg"
+    },
+    {
+        "name": "Frankenstein Junior",
+        "birthday": "01.03.1089",
+        "job": "Verrückter Sohn",
+        "img":  "image/04.jpg"
+    }
+]
