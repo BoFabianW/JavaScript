@@ -1,0 +1,83 @@
+/* Die Klasse '*' enthält Formatierungen, die für die gesamte Seite gültig sind */
+* {
+    /* Schriftart */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* Zeilenabstand */
+    line-height: 1.5px;
+
+    /* Schriftgröße */
+    font-size: 13pt;
+
+    /* Schriftfarbe */
+    color: darksalmon;
+}
+
+body {
+    /* Seitenabstand des Body-Tags auf 0 setzen */
+    margin: 0;
+    /* Hintergrundfarbe Body-Tags setzen */
+    background-color: rgb(44, 44, 44);
+}
+
+.main {
+    /* Breite */
+    width: 600px;
+
+    /* Abstand links und oben */
+    margin-left: 20px;
+    margin-top: 20px;
+
+    /* Rahmen gestalten - Style, Breite, Farbe */
+    border-style: solid;
+    border-width: 1.2px;
+    border-color: darksalmon;
+}
+
+h1 {
+    /* Abstand zum Elternelement - oben, links, unten */
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+
+    /* Schriftgröße */
+    font-size: 20pt;
+}
+.passwordForm {
+    margin: 30px;
+}
+
+label {
+    /* Anordnung des Elements (Untereinander) */
+    display: block;
+
+    /* Abstand zu Elternelement - unten */
+    margin-bottom: 20px;
+}
+
+input {
+    /* Seitenabstände innerhalb des Elements */
+    padding: 6px;
+
+    /* Breite */
+    width: 400px;
+
+    /* Schriftfarbe */
+    color: rgb(44, 44, 44);
+}
+
+p {
+    /* Abstand zum Elternelement - unten */
+    margin-bottom: 20px;
+}
+
+button {
+    /* Abstand zum Elternelement - unten */
+    margin-top: 20px;
+
+    /* Seitenabstände innerhalb des Elements */
+    padding: 15px;
+
+    /* Schriftfarbe */
+    color: rgb(44, 44, 44);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS einbinden -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Titel der Website-->
+  <title>Paswortvalidator</title>
+
+</head>
+<body>
+
+  <div class="main">
+
+    <!-- Überschrift -->
+    <h1>Passwortvalidator</h1>
+
+    <div class="passwordForm">
+
+      <form>
+          <label for="psw">Passwort:</label>
+          <input type="text" placeholder="Bitte Passwort eingeben." name="psw" id="inputPasswort" required onkeyup="check()">
+          <p id="msg"></p>
+          <button type="button" onclick="ok()" id="button" disabled true>Speichern</button>
+      </form>
+
+  </div>
+
+</div>
+
+<!-- JavaScript einbinden -->
+<script src="javascript/passwort.js"></script>
+
+</body>
+</html>
