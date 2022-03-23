@@ -1,0 +1,62 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+#result {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(37, 37, 37);
+    color: rgb(202, 202, 202);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    height: 80vh;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(37, 37, 37);
+    color: rgb(202, 202, 202);
+    border-collapse: collapse;
+    background-color: black;
+}
+
+td {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(37, 37, 37);
+    width: 25%;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color:  rgb(83, 83, 83);
+}
+
+.hidden {
+    border-style: none;
+}
+
+.hidden:hover {
+    background-color: black;
+    cursor: default;
+}
+
+.resultButton {
+    background-color: rgb(47, 66, 28);
+}
+
+.operator {
+    background-color: rgb(163, 117, 126);
+}

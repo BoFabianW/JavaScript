@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS einbinden -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Einfacher Taschenrechner</title>
+
+</head>
+
+<body>
+    <div id="result"></div>
+
+    <table>
+        <tr>
+            <td class="hidden"></td>
+            <td class="hidden"></td>
+            <td class="hidden"></td>
+            <td onclick="del()">DEL</td>
+        </tr>
+        <tr>
+            <td onclick="addNumber(7)">7</td>
+            <td onclick="addNumber(8)">8</td>
+            <td onclick="addNumber(9)">9</td>
+            <td class="operator" onclick="addNumber(' / ')">/</td>
+        </tr>
+        <tr>
+            <td onclick="addNumber(4)">4</td>
+            <td onclick="addNumber(5)">5</td>
+            <td onclick="addNumber(6)">6</td>
+            <td class="operator" onclick="addNumber(' * ')">*</td>
+        </tr>
+        <tr>
+            <td onclick="addNumber(1)">1</td>
+            <td onclick="addNumber(2)">2</td>
+            <td onclick="addNumber(3)">3</td>
+            <td class="operator" onclick="addNumber(' - ')">-</td>
+        </tr>
+        <tr>
+            <td onclick="addNumber(0)">0</td>
+            <td onclick="addNumber('.')">,</td>
+            <td class="resultButton" onclick="result()">=</td>
+            <td class="operator" onclick="addNumber(' + ')">+</td>
+        </tr>
+    </table>
+
+    <!-- JavaScript einbinden -->
+    <script src="math.js"></script>
+</body>
+
+</html>
