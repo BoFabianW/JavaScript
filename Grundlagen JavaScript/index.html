@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style-todolist.css">
+    <link rel="stylesheet" href="style-tictactoe.css">
+    <link rel="stylesheet" href="style-zitate.css">
+   
+    <title>Grundlagen JavaScript</title>
+</head>
+<body>
+    <h1>JavaScript Grundlagen</h1>
+
+    <div class="todo">
+        <h2>ToDoList</h2>
+        <input type="text" id="input" value="">
+        <button type="button" id="click-button">Neue Aufgabe hinzufügen</button>  
+
+        <div id="addToDo"></div>
+    </div>
+
+    <div class="mainTicTacToe">
+
+        <h2>TicTacToe</h2>
+
+        <p class="playerWin">Gewinner:</p>
+
+        <div class="tableTicTacToe">
+
+                <button id="btn1"></button>
+                <button id="btn2"></button>
+                <button id="btn3"></button>
+
+                <button id="btn4"></button>
+                <button id="btn5"></button>
+                <button id="btn6"></button>
+
+                <button id="btn7"></button>
+                <button id="btn8"></button>
+                <button id="btn9"></button>
+            
+        </div>
+
+        <button id="newGameButton">Neues Spiel</button>
+
+    </div>
+
+    <div class="mainZitat">
+        <h2>Zitate-Generator</h2>
+        <p id="zitat">Zitat</p>
+        <p id="author">Author</p>
+        <button id="newZitatButton">Zitat generieren</button>
+    </div>
+    
+    <!-- JavaScript einbinden -->
+    <script src="07-Zitate.js"></script>
+    <script src="06-TicTacToe.js"></script>
+    <script src="05-ToDoList.js"></script>
+</body>
+</html>

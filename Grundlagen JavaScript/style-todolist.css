@@ -1,0 +1,51 @@
+.todo {
+    display: block;
+    padding: 30px;
+    margin-top: 50px;
+    border: blanchedalmond solid 2px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: steelblue;
+}
+
+.todo h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.todo #input {
+    width: calc(100% - 10px); 
+}
+
+.todo #click-button {
+    margin-top: 10px;
+    width: 300px;
+}
+
+.todo #addToDo {
+    margin-top: 20px;
+}
+
+.todo #input, .todo #click-button, #addToDo div button {
+    color:rgb(65, 64, 64);
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px;
+}
+
+.todo .nTodo {
+    font-size: 50px;
+}
+
+#addToDo div {
+    margin-bottom: 5px;
+    font-size: 18px;
+    border-bottom: wheat solid 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#addToDo div button {
+    margin-right: 30px;
+    width: 130px;
+}
